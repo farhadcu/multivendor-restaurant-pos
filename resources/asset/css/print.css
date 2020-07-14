@@ -1,0 +1,1219 @@
+body{
+    background: #fff !important;
+}
+body,html{
+    font-size: 13px !important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.col-lg-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@media (min-width:992px) {
+    .col-lg-12 {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+}
+
+.m-invoice__text b {
+    float: left !important;
+}
+/***** Employee Profile******/
+.label:after{
+    content: ':';
+    margin-left: 5px;
+}
+.label.one:after{
+    margin-left: 44px;
+}
+.label.two:after{
+    margin-left: 59px;
+}
+.label.three:after{
+    margin-left: 44px;
+}
+.label.four:after{
+    margin-left: 95px;
+}
+.label.five:after{
+    margin-left: 52px;
+}
+.label.six:after{
+    margin-left: 61px;
+}
+.label.seven:after{
+    margin-left: 17px;
+}
+.label.eight:after{
+    margin-left: 38px;
+}
+
+.label.eleven:after{
+    margin-left: 50px;
+}
+.label.twelve:after{
+    margin-left: 62px;
+}
+.label.thirteen:after{
+    margin-left: 45px;
+}
+.label.fourteen:after{
+    margin-left: 28px;
+}
+
+.label.seventeen:after{
+    margin-left: 25px;
+}
+.label.eighteen:after{
+    margin-left: 30px;
+}
+.label.nineteen:after{
+    margin-left: 26px;
+}
+
+.label.twenty-one:after{
+    margin-left: 25px;
+}
+.label.twenty-two:after{
+    margin-left: 40px;
+}
+
+.label.twenty-three:after{
+    margin-left: 30px;
+}
+.label.twenty-four:after{
+    margin-left: 15px;
+}
+.label.twenty-five:after{
+    margin-left: 43px;
+}
+.label.twenty-six:after{
+    margin-left: 50px;
+}
+.label.twenty-nine:after{
+    margin-left: 25px;
+}
+.label.thirty:after{
+    margin-left: 20px;
+}
+.label.thirty-one:after{
+    margin-left: 15px;
+}
+.label.thirty-two:after{
+    margin-left: 13px;
+}
+.label.thirty-three:after{
+    margin-left: 30px;
+}
+/* .label.thirty-five:after{
+    
+} */
+.label.thirty-six:after{
+    margin-left: 52px;
+}
+.label.thirty-seven:after{
+    margin-left: 57px;
+}
+.label.thirty-eight:after{
+    margin-left: 48px;
+}
+
+/************/
+
+
+.m-invoice__text b:after {
+    content: ':';
+}
+.invoice_no b::after{
+    content: ':';
+    margin-left: 21px;
+}
+.m-invoice__text.phone b:after {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.m-invoice__text.email b:after {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.m-invoice__text.one b:after {
+    margin-left: 10px;
+}
+
+.m-invoice__text.two b:after {
+    margin-left: 15px;
+}
+
+.m-invoice__text.three b:after {
+    margin-left: 42px;
+}
+
+.m-invoice__text.four b:after {
+    margin-left: 4px;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.m-portlet {
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+}
+
+.m-portlet .m-portlet__body {
+    padding: 2.2rem 2.2rem
+        /* padding: 0 !important; */
+}
+
+.m-portlet .m-portlet__body.m-portlet__body--no-padding {
+    padding: 0;
+}
+
+.m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__head .m-invoice__container {
+    padding: 0;
+}
+
+.m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__head .m-invoice__container.m-invoice__container--centered {
+    width: 100%;
+}
+
+.m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__body {
+    padding: 2rem 0 0 0;
+}
+
+.m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__body.m-invoice__body--centered {
+    width: 100%;
+}
+
+.m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__footer .m-invoice__table {
+    padding: 0;
+}
+
+.m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__footer .m-invoice__table.m-invoice__table--centered {
+    width: 100%;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container {
+    padding: 0 5rem 0 5rem;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container.m-invoice__container--centered {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo {
+    display: table;
+    width: 100%;
+    padding-top: 0 !important;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo>a {
+    display: table-cell;
+    text-decoration: none;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo>a>h1 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo>a:last-child {
+    text-align: right;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo>a:first-child {
+    vertical-align: top;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__desc {
+    text-align: right;
+    display: block;
+    padding: 1rem 0 4rem 0;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__desc>span {
+    display: block
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items {
+    display: table;
+    width: 100%;
+    padding: 2rem 0 3rem 0;
+    table-layout: fixed;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items .m-invoice__item {
+    display: table-cell;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items .m-invoice__item .m-invoice__subtitle {
+    font-weight: 600;
+    padding-bottom: .5rem;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items .m-invoice__item>span {
+    display: block;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body {
+    padding: 2rem 5rem 0 5rem;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body.m-invoice__body--centered {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0 0 0;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table thead tr th {
+    padding: 1rem 0 .5rem 0;
+    border-top: none;
+    color: white !important;
+}
+
+.border-left-dark{
+    border-left: 5px solid #343a40;
+}
+.bg-dark-low-opacity{
+    background: rgba(0,0,0,0.09) !important;
+    -webkit-print-color-adjust: exact !important; 
+}
+/* .m-invoice-2 .m-invoice__wrapper .m-invoice__body table thead tr th:not(:first-child) {
+    text-align: right;
+} */
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr td {
+    padding: 1rem 0 1rem 0;
+    vertical-align: middle;
+    border-top: none;
+    font-size: 13px !important;
+    color: black !important;
+}
+
+/* .m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr td:not(:first-child) {
+    text-align: right;
+} */
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr:first-child td {
+    padding-top: 1.8rem;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__footer {
+    margin-top: 9rem;
+    padding: 5rem 0 7rem 0;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table {
+    padding: 0 5rem 0 5rem;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table.m-invoice__table--centered {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table thead tr th {
+    padding: 1rem 0 .5rem 0;
+    border-top: none;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table thead tr th:last-child {
+    text-align: right;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table tbody tr td {
+    padding: 1.8rem 0 0 0;
+    vertical-align: middle;
+    border-top: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table tbody tr td:last-child {
+    text-align: right;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+}
+
+@media only screen and (min-width:0px) and (max-width: 374px) {
+    .flex-reverse{
+        flex-direction: column-reverse !important;
+    }
+}
+@media (max-width:768px) {
+    .m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__head .m-invoice__container {
+        padding: 0;
+    }
+
+    .m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__head .m-invoice__container.m-invoice__container--centered {
+        width: 100%;
+        padding: 0;
+    }
+
+    .m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__body {
+        padding: 2rem 0 0 0;
+    }
+
+    .m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__body.m-invoice__body--centered {
+        width: 100%;
+        padding: 0;
+    }
+
+    .m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__footer {
+        padding: 3rem 0 4rem 0;
+    }
+
+    .m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__footer .m-invoice__table.m-invoice__table--centered {
+        width: 100%;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container {
+        width: 100% !important;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container.m-invoice__container--centered {
+        padding: 0 2rem 0 2rem;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo {
+        padding-top: 4rem;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo>a {
+        width: 100%;
+        display: block;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo>a:last-child {
+        padding-top: 1rem;
+        text-align: left;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__desc {
+        text-align: left;
+        padding-bottom: 2rem;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items {
+        padding: 2rem 0 2rem 0;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items .m-invoice__item {
+        width: 100%;
+        display: block;
+        padding-bottom: 2rem;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items .m-invoice__item:not(:first-child) {
+        padding-left: 0;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__body {
+        width: 100% !important;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__body.m-invoice__body--centered {
+        padding: 0 2rem 0 2rem;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__body table thead tr th:not(:first-child) {
+        padding-right: 1.5rem;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__body table thead tr th:last-child {
+        padding-right: 0;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr td:not(:first-child) {
+        padding-right: 1.5rem;
+        vertical-align: top;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr td:last-child {
+        padding-right: 0;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer {
+        margin-top: 4rem;
+        padding: 3rem 2rem 4rem 2rem;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table.m-invoice__table--centered {
+        width: 100%;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table thead tr th {
+        vertical-align: top;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table thead tr th:not(:first-child) {
+        padding-left: 2rem;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table tbody tr td {
+        vertical-align: top;
+    }
+
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table tbody tr td:not(:first-child) {
+        padding-left: 2rem;
+        vertical-align: top;
+    }
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo>a>h1 {
+    color: #3f4047;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items {
+    border-top: 1px solid #ebedf2;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table thead tr th {
+    color: #898b96;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr td {
+    color: #6f727d;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__footer {
+    background-color: #f7f8fa;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table thead tr th {
+    color: #898b96;
+    border-bottom: 1px solid #e2e5ec;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table tbody tr td {
+    color: #6f727d;
+}
+.table .thead-dark th {
+    color: #fff !important;
+    background-color: #343a40 !important;
+    border-color: #454d55;
+    -webkit-print-color-adjust: exact; 
+}
+@media screen {
+    .no_screen {
+        display: none;
+    }
+
+    .no_print {
+        display: block;
+    }
+
+    .amount_due {
+        font-size: 20px;
+        font-family: inherit;
+        font-weight: 400;
+    }
+
+}
+body { -webkit-print-color-adjust: exact !important;}
+.font-weight-bold{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 2500px){
+    #profile table,
+    #profile thead,
+    #profile tbody,
+    #profile th,
+    #profile tr,
+    #profile td{
+        display: block;
+    }
+    #profile thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    #profile tr{
+        margin: 0 0 1rem 0;
+        padding: 0;
+    }
+    #profile td{
+        border: none;
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-weight: normal;
+        font-size: 12px;
+        color: #333 !important;
+    }
+    #profile #basic_info td{
+        padding-left: 35%;
+    }
+    #profile #supp_info td{
+        padding-left: 35%;
+    }
+    #profile #off_info td{
+        padding-left: 35%;
+    }
+    #profile #qua_info td{
+        padding-left: 30%;
+    }
+    #profile td:before{
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    #basic-info-one td:nth-of-type(1):before{ content: "Unit Name";font-weight: bold !important;}
+    #basic-info-two td:nth-of-type(1):before{ content: "Dept. Name";font-weight: bold !important;}
+    #basic-info-one td:nth-of-type(2):before{ content: "EMP Name";font-weight: bold !important;}
+    #basic-info-two td:nth-of-type(2):before{ content: "EMP ID";font-weight: bold !important;}
+    #basic-info-one td:nth-of-type(3):before{ content: "Device ID";font-weight: bold !important;}
+    #basic-info-two td:nth-of-type(3):before{ content: "Mill Division";font-weight: bold !important;}
+    #basic-info-one td:nth-of-type(4):before{ content: "Father'\s Name";font-weight: bold !important;}
+    #basic-info-two td:nth-of-type(4):before{ content: "Mother'\s Name";font-weight: bold !important;}
+    #basic-info-one td:nth-of-type(5):before{ content: "Present Add";font-weight: bold !important;}
+    #basic-info-two td:nth-of-type(5):before{ content: "Permanent Add";font-weight: bold !important;}
+
+    #supp-info-one td:nth-of-type(1):before{ content: "DOB";font-weight: bold !important;}
+    #supp-info-one td:nth-of-type(2):before{ content: "Gender";font-weight: bold !important;}
+    #supp-info-one td:nth-of-type(3):before{ content: "Religion";font-weight: bold !important;}
+    #supp-info-one td:nth-of-type(4):before{ content: "EMP Status";font-weight: bold !important;}
+
+    #supp-info-two td:nth-of-type(1):before{ content: "Phone";font-weight: bold !important;}
+    #supp-info-two td:nth-of-type(2):before{ content: "Marital Status";font-weight: bold !important;}
+    #supp-info-two td:nth-of-type(3):before{ content: "Nationality";font-weight: bold !important;}
+    #supp-info-two td:nth-of-type(4):before{ content: "RES Status";font-weight: bold !important;}
+
+    #supp-info-three td:nth-of-type(1):before{ content: "Mobile";font-weight: bold !important;}
+    #supp-info-three td:nth-of-type(2):before{ content: "Blood Group";font-weight: bold !important;}
+    #supp-info-three td:nth-of-type(3):before{ content: "EMP Type";font-weight: bold !important;}
+    #supp-info-three td:nth-of-type(4):before{ content: "Email";font-weight: bold !important;}
+
+    #off-info-one td:nth-of-type(1):before{ content: "Date of Join";font-weight: bold !important;}
+    #off-info-one td:nth-of-type(2):before{ content: "Prob. End";font-weight: bold !important;}
+    #off-info-one td:nth-of-type(3):before{ content: "Job Location";font-weight: bold !important;}
+    #off-info-one td:nth-of-type(4):before{ content: "Current Salary";font-weight: bold !important;}
+
+    #off-info-two td:nth-of-type(1):before{ content: "Pos. on Join";font-weight: bold !important;}
+    #off-info-two td:nth-of-type(2):before{ content: "Confirm Date";font-weight: bold !important;}
+    #off-info-two td:nth-of-type(3):before{ content: "OT Allowed";font-weight: bold !important;}
+    #off-info-two td:nth-of-type(4):before{ content: "Report To";font-weight: bold !important;}
+
+    #off-info-three td:nth-of-type(1):before{ content: "Prob. Start";font-weight: bold !important;}
+    #off-info-three td:nth-of-type(2):before{ content: "Current Pos.";font-weight: bold !important;}
+    #off-info-three td:nth-of-type(3):before{ content: "Salary on Join";font-weight: bold !important;}
+    #off-info-three td:nth-of-type(4):before{ content: "Transfer History";font-weight: bold !important;}
+    
+    #qua-info-one td:nth-of-type(1):before{ content: "Academinc Qualification";font-weight: bold !important;}
+    #qua-info-one td:nth-of-type(2):before{ content: "Professional Info";font-weight: bold !important;}
+    #qua-info-one td:nth-of-type(3):before{ content: "Job Description";font-weight: bold !important;}
+    #qua-info-one td:nth-of-type(4):before{ content: "Special Expertise";font-weight: bold !important;}
+}
+
+@media print {
+    body,html{
+        font-size: 13px !important;
+    }
+    body { -webkit-print-color-adjust: exact !important;background: #fff !important;}
+    .no_screen {
+        display: block !important;
+    }
+
+    .no_print {
+        display: none;
+    }
+
+    .p-xl {
+        padding: 0;
+    }
+
+    .print-invoice {
+        margin-top: -35px;
+    }
+
+    .amount_due {
+        font-size: 20px;
+        font-family: inherit;
+        font-weight: 400;
+        color: red;
+        display: none;
+    }
+
+    .invoice_footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .document-section {
+        display: none;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px
+    }
+    
+    .col-lg-12 {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px
+    }
+    /*to avoid printing blank page*/
+    html,
+    body {
+        border: 1px solid white;
+        height: 99%;
+        page-break-after: avoid;
+        page-break-before: avoid;
+    }
+
+    a[href]:after {
+        content: none !important;
+    }
+    .table .thead-dark th {
+        color: #fff;
+        background-color: #343a40 !important;
+        border-color: #454d55;
+        -webkit-print-color-adjust: exact !important; 
+    }
+    .border-left-dark{
+        border-left: 5px solid #343a40;
+        -webkit-print-color-adjust: exact; 
+    }
+    .bg-dark-low-opacity{
+        background: rgba(0,0,0,0.09) !important;
+        -webkit-print-color-adjust: exact !important; 
+    }
+
+    /*************/
+    .m-invoice__text b {
+        float: left !important;
+    }
+    
+    .m-invoice__text b:after {
+        content: ':';
+    
+    }
+    .invoice_no b::after{
+        content: ':';
+        margin-left: 21px;
+    }
+    .m-invoice__text.one b:after {
+        margin-left: 20px;
+    }
+    
+    .m-invoice__text.two b:after {
+        margin-left: 15px;
+    }
+    
+    .m-invoice__text.three b:after {
+        margin-left: 42px;
+    }
+    
+    .m-invoice__text.four b:after {
+        margin-left: 4px;
+    }
+    
+    .text-left {
+        text-align: left !important;
+    }
+    
+    .text-right {
+        text-align: right !important;
+    }
+    .text-center{
+        text-align: center !important;
+    }
+    .m-portlet {
+        margin-bottom: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .m-portlet .m-portlet__body {
+        padding: 2.2rem 2.2rem
+            /* padding: 0 !important; */
+    }
+    
+    .m-portlet .m-portlet__body.m-portlet__body--no-padding {
+        padding: 0;
+    }
+    
+    .m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__head .m-invoice__container {
+        padding: 0;
+    }
+    
+    .m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__head .m-invoice__container.m-invoice__container--centered {
+        width: 100%;
+    }
+    
+    .m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__body {
+        padding: 2rem 0 0 0;
+    }
+    
+    .m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__body.m-invoice__body--centered {
+        width: 100%;
+    }
+    
+    .m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__footer .m-invoice__table {
+        padding: 0;
+    }
+    
+    .m-invoice-2.m-invoice-2--fit .m-invoice__wrapper .m-invoice__footer .m-invoice__table.m-invoice__table--centered {
+        width: 100%;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container {
+        padding: 0 5rem 0 5rem;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container.m-invoice__container--centered {
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo {
+        display: table;
+        width: 100%;
+        padding-top: 0 !important;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo>a {
+        display: table-cell;
+        text-decoration: none;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo>a>h1 {
+        font-weight: 600;
+        font-size: 25px;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo>a:last-child {
+        text-align: right;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo>a:first-child {
+        vertical-align: top;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__desc {
+        text-align: right;
+        display: block;
+        padding: 1rem 0 4rem 0;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__desc>span {
+        display: block
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items {
+        display: table;
+        width: 100%;
+        padding: 2rem 0 3rem 0;
+        table-layout: fixed;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items .m-invoice__item {
+        display: table-cell;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items .m-invoice__item .m-invoice__subtitle {
+        font-weight: 600;
+        padding-bottom: .5rem;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items .m-invoice__item>span {
+        display: block;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__body {
+        padding: 2rem 5rem 0 5rem;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__body.m-invoice__body--centered {
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem 0 0 0;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__body table thead tr th {
+        padding: 1rem 0 .5rem 0;
+        border-top: none;
+        color: white !important;
+    }
+    
+    .border-left-dark{
+        border-left: 5px solid #343a40;
+    }
+    .bg-dark-low-opacity{
+        background: rgba(0,0,0,0.09) !important;
+        -webkit-print-color-adjust: exact !important; 
+    }
+    /* .m-invoice-2 .m-invoice__wrapper .m-invoice__body table thead tr th:not(:first-child) {
+        text-align: right;
+    } */
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr td {
+        padding: 1rem 0 1rem 0;
+        vertical-align: middle;
+        border-top: none;
+        font-size: 13px !important;
+        color: black !important;
+    }
+    
+    /* .m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr td:not(:first-child) {
+        text-align: right;
+    } */
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr:first-child td {
+        padding-top: 1.8rem;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer {
+        margin-top: 9rem;
+        padding: 5rem 0 7rem 0;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table {
+        padding: 0 5rem 0 5rem;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table.m-invoice__table--centered {
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table thead tr th {
+        padding: .5rem 0 .5rem 0;
+        border-top: none;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table thead tr th:last-child {
+        text-align: right;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table tbody tr td {
+        padding: 1.8rem 0 0 0;
+        vertical-align: middle;
+        border-top: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table tbody tr td:last-child {
+        text-align: right;
+        font-size: 1.8rem;
+        padding-top: 1rem;
+    }
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo>a>h1 {
+        color: #3f4047;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items {
+        border-top: 1px solid #ebedf2;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__body table thead tr th {
+        color: #898b96;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr td {
+        color: #6f727d;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer {
+        background-color: #f7f8fa;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table thead tr th {
+        color: #898b96;
+        border-bottom: 1px solid #e2e5ec;
+    }
+    
+    .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table table tbody tr td {
+        color: #6f727d;
+    }
+    /***** Employee Profile******/
+    .label:after{
+        content: ':';
+        margin-left: 5px;
+    }
+    .label.one:after{
+        margin-left: 44px;
+    }
+    .label.two:after{
+        margin-left: 59px;
+    }
+    .label.three:after{
+        margin-left: 44px;
+    }
+    .label.four:after{
+        margin-left: 95px;
+    }
+    .label.five:after{
+        margin-left: 52px;
+    }
+    .label.six:after{
+        margin-left: 61px;
+    }
+    .label.seven:after{
+        margin-left: 17px;
+    }
+    .label.eight:after{
+        margin-left: 38px;
+    }
+
+    .label.eleven:after{
+        margin-left: 50px;
+    }
+    .label.twelve:after{
+        margin-left: 62px;
+    }
+    .label.thirteen:after{
+        margin-left: 45px;
+    }
+    .label.fourteen:after{
+        margin-left: 28px;
+    }
+
+    .label.seventeen:after{
+        margin-left: 25px;
+    }
+    .label.eighteen:after{
+        margin-left: 30px;
+    }
+    .label.nineteen:after{
+        margin-left: 26px;
+    }
+
+    .label.twenty-one:after{
+        margin-left: 25px;
+    }
+    .label.twenty-two:after{
+        margin-left: 40px;
+    }
+
+    .label.twenty-three:after{
+        margin-left: 30px;
+    }
+    .label.twenty-four:after{
+        margin-left: 15px;
+    }
+    .label.twenty-five:after{
+        margin-left: 43px;
+    }
+    .label.twenty-six:after{
+        margin-left: 50px;
+    }
+    .label.twenty-nine:after{
+        margin-left: 25px;
+    }
+    .label.thirty:after{
+        margin-left: 20px;
+    }
+    .label.thirty-one:after{
+        margin-left: 15px;
+    }
+    .label.thirty-two:after{
+        margin-left: 13px;
+    }
+    .label.thirty-three:after{
+        margin-left: 30px;
+    }
+    /* .label.thirty-five:after{
+        
+    } */
+    .label.thirty-six:after{
+        margin-left: 52px;
+    }
+    .label.thirty-seven:after{
+        margin-left: 57px;
+    }
+    .label.thirty-eight:after{
+        margin-left: 48px;
+    }
+    .font-weight-bold{
+        font-weight: bold;
+    }
+    /************/
+    #profile table,
+    #profile thead,
+    #profile tbody,
+    #profile th,
+    #profile tr,
+    #profile td{
+        display: block;
+    }
+    #profile thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    #profile tr{
+        margin: 0 0 1rem 0;
+        padding: 0;
+    }
+    #profile td{
+        border: none;
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-weight: normal;
+        font-size: 12px;
+        color: #333 !important;
+    }
+    #profile #basic_info td{
+        padding-left: 35%;
+    }
+    #profile #supp_info td{
+        padding-left: 38%;
+    }
+    #profile #off_info td{
+        padding-left: 40%;
+    }
+    #profile #qua_info td{
+        padding-left: 25%;
+    }
+    #profile td:before{
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    #basic-info-one td:nth-of-type(1):before{ content: "Unit Name";font-weight: bold !important;}
+    #basic-info-two td:nth-of-type(1):before{ content: "Dept. Name";font-weight: bold !important;}
+    #basic-info-one td:nth-of-type(2):before{ content: "EMP Name";font-weight: bold !important;}
+    #basic-info-two td:nth-of-type(2):before{ content: "EMP ID";font-weight: bold !important;}
+    #basic-info-one td:nth-of-type(3):before{ content: "Device ID";font-weight: bold !important;}
+    #basic-info-two td:nth-of-type(3):before{ content: "Mill Division";font-weight: bold !important;}
+    #basic-info-one td:nth-of-type(4):before{ content: "Father'\s Name";font-weight: bold !important;}
+    #basic-info-two td:nth-of-type(4):before{ content: "Mother'\s Name";font-weight: bold !important;}
+    #basic-info-one td:nth-of-type(5):before{ content: "Present Add";font-weight: bold !important;}
+    #basic-info-two td:nth-of-type(5):before{ content: "Permanent Add";font-weight: bold !important;}
+
+    #basic_info_section{
+        width: 100%;
+    }
+    #basic_info_section .one,
+    #basic_info_section .two{
+        width:42.5%;
+        float: left;
+    }
+    #basic_info_section .three{
+        width:15%;
+        float: left;
+    }
+
+    #supp_info_section{
+        width: 100%;
+    }
+    #supp_info_section .one,
+    #supp_info_section .two{
+        width:33%;
+        float: left;
+    }
+    #supp_info_section .three{
+        width:34%;
+        float: left;
+    }
+    #off_info_section{
+        width: 100%;
+    }
+    #off_info_section .one,
+    #off_info_section .two{
+        width:33%;
+        float: left;
+    }
+    #off_info_section .three{
+        width:34%;
+        float: left;
+    }
+    #qua_info_section{
+        width: 100%;
+    }
+    #supp-info-one td:nth-of-type(1):before{ content: "DOB";font-weight: bold !important;}
+    #supp-info-one td:nth-of-type(2):before{ content: "Gender";font-weight: bold !important;}
+    #supp-info-one td:nth-of-type(3):before{ content: "Religion";font-weight: bold !important;}
+    #supp-info-one td:nth-of-type(4):before{ content: "EMP Status";font-weight: bold !important;}
+
+    #supp-info-two td:nth-of-type(1):before{ content: "Phone";font-weight: bold !important;}
+    #supp-info-two td:nth-of-type(2):before{ content: "Marital Status";font-weight: bold !important;}
+    #supp-info-two td:nth-of-type(3):before{ content: "Nationality";font-weight: bold !important;}
+    #supp-info-two td:nth-of-type(4):before{ content: "RES Status";font-weight: bold !important;}
+
+    #supp-info-three td:nth-of-type(1):before{ content: "Mobile";font-weight: bold !important;}
+    #supp-info-three td:nth-of-type(2):before{ content: "Blood Group";font-weight: bold !important;}
+    #supp-info-three td:nth-of-type(3):before{ content: "EMP Type";font-weight: bold !important;}
+    #supp-info-three td:nth-of-type(4):before{ content: "Email";font-weight: bold !important;}
+
+    #off-info-one td:nth-of-type(1):before{ content: "Date of Join";font-weight: bold !important;}
+    #off-info-one td:nth-of-type(2):before{ content: "Prob. End";font-weight: bold !important;}
+    #off-info-one td:nth-of-type(3):before{ content: "Job Location";font-weight: bold !important;}
+    #off-info-one td:nth-of-type(4):before{ content: "Current Salary";font-weight: bold !important;}
+
+    #off-info-two td:nth-of-type(1):before{ content: "Pos. on Join";font-weight: bold !important;}
+    #off-info-two td:nth-of-type(2):before{ content: "Confirm Date";font-weight: bold !important;}
+    #off-info-two td:nth-of-type(3):before{ content: "OT Allowed";font-weight: bold !important;}
+    #off-info-two td:nth-of-type(4):before{ content: "Report To";font-weight: bold !important;}
+
+    #off-info-three td:nth-of-type(1):before{ content: "Prob. Start";font-weight: bold !important;}
+    #off-info-three td:nth-of-type(2):before{ content: "Current Pos.";font-weight: bold !important;}
+    #off-info-three td:nth-of-type(3):before{ content: "Salary on Join";font-weight: bold !important;}
+    #off-info-three td:nth-of-type(4):before{ content: "Transfer History";font-weight: bold !important;}
+    
+    #qua-info-one td:nth-of-type(1):before{ content: "Academinc Qualification";font-weight: bold !important;}
+    #qua-info-one td:nth-of-type(2):before{ content: "Professional Info";font-weight: bold !important;}
+    #qua-info-one td:nth-of-type(3):before{ content: "Job Description";font-weight: bold !important;}
+    #qua-info-one td:nth-of-type(4):before{ content: "Special Expertise";font-weight: bold !important;}
+}
+
+@page {
+    size: auto;
+    margin: 0mm;
+}
+.font-size-5{font-size:5px;}
+.font-size-6{font-size:6px;}
+.font-size-7{font-size:7px;}
+.font-size-8{font-size:8px;}
+.font-size-9{font-size:9px;}
+.font-size-10{font-size:10px;}
+.font-size-11{font-size:11px;}
+.font-size-12{font-size:12px;}
+.font-size-13{font-size:13px;}
+.font-size-14{font-size:14px;}
+.font-size-15{font-size:15px;}
+.font-size-16{font-size:16px;}
+.font-size-17{font-size:17px;}
+.font-size-18{font-size:18px;}
+.font-size-19{font-size:19px;}
+.font-size-20{font-size:20px;}
+/*to hide page url, page number and datetime*/
